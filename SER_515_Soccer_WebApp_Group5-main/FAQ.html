@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <title>FAQ</title>  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="css/homepage.css">  
+  <style>
+  body {
+    font: sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  .button {
+  background-color: gold; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=QueryBox], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    
+    opacity: 0.7;
+  }
+
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+.container-fluid h2 {
+  font-weight: bold;
+  color:gold;
+  }
+
+  </style>
+</head>
+<body>
+
+
+
+
+
+  <div class="navbar">
+    <a class="firstele" href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a href="about.jsp"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+    <div class="subnav">
+      <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Apply <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="refereeRegistration.jsp"> As Referee</a>
+        <a href="SponsersBid.jsp"> As Sponser</a>
+      </div>
+    </div> 
+
+    
+    <div class="subnav">
+      <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Teams & Schedule <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="AllTeams.jsp">Teams</a>
+        <a href="matchScheduling.jsp">Schedule</a>
+        <a href="leaderBoard.jsp">Leaderboard</a>
+      </div>
+    </div> 
+
+    <a href="maps.jsp"><i class="fa fa-map-marker" aria-hidden="true"></i> Maps</a>
+    <a href="HotelBooking.jsp"><i class="fa fa-map-marker" aria-hidden="true"></i> Book Hotel</a>
+
+    <div class="subnav">
+      <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> More <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+      <a href="https://www.soccer.com/srch?query=liverpool" target="_blank">Fan Store</a>
+       <a href="Gallery.jsp">Matches Gallery</a>  
+         <a href="rules.html">Game Rules</a>
+    </div>
+  </div>
+      
+
+
+    
+    <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
+  </div>
+
+
+  
+
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-left">
+  <h2>* How much is Registartion fee for teams?
+  </br>ans: 50 dollars </h2>
+  <h2>* How many teams are participating?
+  </br>nearly 750 teams </h2>
+  <h2>* What is age range of team members?
+  </br>Age ranges from 8 years old (U8) through over 18(18+)and O48. </h2>
+  <h2>* Where to find the ongoing matches and Scedule?
+  </br>On the HomePage </h2>
+  <h2>* How to contact the team?
+  </br>mail to: group5rocks@gmail.com </h2>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1"><h2>Email address</h2> </label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1"><h2>Enter For additional Queries</h2> </label>
+      <input type="QueryBox" class="form-control" id="exampleInputQuery" aria-describedby="QueryHelp" rows="3" placeholder="Enter Your Question">
+    </div>
+    
+      <button type="submit" class="button button1">Submit</button>
+
+    
+  </form>
+  
+</div>
+
+
+
+
+
+
+</body>
+</html>

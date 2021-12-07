@@ -1,0 +1,253 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background-image: url(bg.jpeg);
+    box-sizing: border-box;
+    font-family: sans-serif;
+     background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+}
+
+.active
+{
+  background: gold !important;
+  border-radius: 2px;
+}
+
+.navbar .fa
+{
+    margin-right: 3px;
+}
+
+.container form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color:black;
+  margin:0px;
+}
+
+
+.container h3{
+  height:10px;
+  margin:0px;
+  padding:0px;  
+}
+
+.container input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 0px 440px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color:gold;
+  color: white;
+  height: 35px;
+  margin: 0px;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .navbar {
+    
+    overflow: hidden;
+    background-color: #ffffff;
+    opacity: .7;
+    text-align: center;
+  }
+  
+  .navbar a {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin: 25px;
+  }
+
+  .subnav-content a
+  {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin :0px 15px !important;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 25px;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:gold;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    background-color:gold;
+    width: 160px;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color:black;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+   
+    display: block;
+  }
+
+.TournamentNews
+{
+    width:300px;
+    height:250px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 37.5%;
+    right: 76.2%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.UpcomingEvents
+{
+    width:300px;
+    height:200px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 12.5%;
+    right: 76.2%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+.blink {
+        animation: blinkone 1s linear infinite;
+      }
+      @keyframes blinkone {
+        0% {
+          opacity: 0;
+        }
+      }
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:250px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.firstele
+{
+  margin-left: 100px !important;
+}
+
+.firstele1
+{
+  margin-left: 16px !important;
+}
+
+.logEle
+{
+  margin-left: 1170px !important;
+  width: 160px !important;
+}
+
+
+
+.logo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

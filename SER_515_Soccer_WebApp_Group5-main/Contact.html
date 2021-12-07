@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>
+           Login Page 
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/homepage.css">  
+     </head>
+    <body>
+
+        <div class="navbar">
+            <a class="firstele" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="About.html"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Apply <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="refereeRegistration.html"> As Referee</a>
+                <a href="SponsersBid.html"> As Sponser</a>
+              </div>
+            </div> 
+
+
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Teams & Schedule <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="AllTeams.jsp">Teams</a>
+                <a href="matchScheduling.jsp">Schedule</a>
+                <a href="#">Leaderboard</a>
+              </div>
+            </div> 
+
+            <a href="maps.html"><i class="fa fa-map-marker" aria-hidden="true"></i> Maps</a>
+            <a href="HotelBooking.html"><i class="fa fa-map-marker" aria-hidden="true"></i> Book Hotel</a>
+
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> More <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+              <a href="https://www.soccer.com/srch?query=liverpool" target="_blank">Fan Store</a>
+              <a href="Gallery.html">Matches Gallery</a>  
+            </div>
+          </div>
+            
+            <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
+          </div>
+    <div class="contactus">
+    <h1>Contact Us Form</h1>
+
+
+
+        <b>If you are emailing the tournament to make a change to your application, you will most likely be able to make this change yourself</b>
+
+        ".Simply log in using your Team ID that you were given when you applied and <a href="login.html">click here</a>.
+
+
+
+    <form action="jsp/contactform.jsp"> 
+        <p>Your Name:</p>
+        <input type="text" id="name" name="name" placeholder="Enter your  name" required>
+        <p>Your Team or Organisation</p>
+        <input type="text" id="organisation" name="organisation" placeholder="Enter your Organisation name" required>
+        <p>Your Email Address:</p>
+        <input type="text" id="email" name="email" placeholder="it should contain @,." required>
+        <p>Your Team LoginID</p>
+        <input type="text" id="loginID" name="loginID" placeholder="Enter your Team LoginID" required>
+        
+    <p>Question/Comment:</p>
+          <textarea name="question" id="question" cols="30" rows="10" placeholder="Write a few lines about your Question"></textarea>
+
+    
+
+
+
+        <input type="submit" name="submit" value="Send ">
+        
+    </form>
+  </div>
+  </body>
+</head>
+  </html>
+

@@ -1,0 +1,335 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contactus{
+     width:320px;
+    height:650px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 25%;
+    right: 39%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+}
+.map {
+    width:620px;
+    height:420px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 32%;
+    right: 24%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.fields {
+    width:320px;
+    height:320px;
+    margin:0 auto;
+    color:black;
+    top: 85%;
+    right: 40%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login
+{
+    width:320px;
+    height:420px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 25%;
+    right: 39%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.hotel{
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 40%;
+    right: 39%;
+    position: center;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.register
+{
+   width:320px;
+    height:400px;
+    margin:0 auto;
+    background:black; 
+    color:white;
+    top: 25%;
+    right: 39%;
+    position: absolute;
+    transform: translate(-50,-50);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+}
+.icon
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;   
+}
+
+.login p
+{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.login input
+{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.login input [type="text"],input [type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;  
+}
+
+.login input [name="submit"]
+{
+    border: none;
+    outline:none;
+    height: 740px;
+    width: 40px;
+    background: white;
+    color: #fff;
+    font-size: 18px;  
+
+}
+
+.login a{
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+color:darkgray;
+}
+
+.login a:hover
+{
+    color: gold;
+}
+
+.w3-dropdown-content a:hover
+{
+    background: gold;
+    border-radius: 2px;
+}
+
+.sponserSubmit
+{
+    margin: 25px 0px !important;
+    width: 200px !important;
+}
+
+.createAccount
+{
+    margin-top: 15px !important;
+    width: 125px !important;
+}
+
+#teams {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;  
+    margin-left: 25%;
+    width: 50%;
+  }
+  
+  #teams td, #teams th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #teams tr{background-color: #f2f2f2;}
+  
+  #teams tr:hover {background-color: #ddd;}
+  
+  #teams th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    margin-bottom: 100px;
+  }
+
+  #scheduleHeader
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 335px;
+    padding-left: 10px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+  }
+
+  #scheduleHeaderforTeam
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 500px;
+    padding-left: 10px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+  }
+
+  #teamsTourHeader
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 305px;
+    padding-left: 10px;
+    margin-left: 41%;
+    margin-bottom: 20px;
+  }
+
+  #LeaderTourHeader
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width: 380px;
+    padding-left: 10px;
+    margin-left: 38%;
+    margin-bottom: 20px;
+  }
+
+  #willingRegisterHeader
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width:500px;
+    padding-left: 10px;
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+  }
+
+  #sponserHeader
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width:500px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+  }
+
+  #teamsRegistered
+  {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    color: white;
+    width:420px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+  }
+
+
+  #dayHeader
+  {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #04AA6D;
+    color: white;
+    width:170px !important;
+    padding-left: 10px;
+    margin-left: 45%;
+  }
+
+
+.active1, .collapsible {
+    background-color:white;
+    opacity: 0.7 !important;
+    font-weight: bolder !important;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .collapsible:hover {
+    background-color: gold;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:white;
+    font-weight: bold !important;
+  }
+
+
+  .totalTeams
+  {
+    margin-top: 150px;
+  }
+
+  .button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+

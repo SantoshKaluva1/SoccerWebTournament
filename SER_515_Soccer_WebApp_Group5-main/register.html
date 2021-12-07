@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>
+           Login Page 
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/homepage.css">  
+     </head>
+    <body>
+
+        <div class="navbar">
+<div class="logo">
+            <img src="Images/logo.jpg">
+          </div>
+            <a class="firstele" href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i> Home</a>            <a href="about.jsp"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Apply <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="refereeRegistration.jsp"> As Referee</a>
+                <a href="SponsersBid.jsp"> As Sponser</a>
+              </div>
+            </div> 
+            
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> Teams & Schedule <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="AllTeams.jsp">Teams</a>
+                <a href="matchScheduling.jsp">Schedule</a>
+                <a href="leaderBoard.jsp">Leaderboard</a>
+              </div>
+            </div> 
+            <a href="maps.jsp"><i class="fa fa-map-marker" aria-hidden="true"></i> Maps</a>
+            <a href="HotelBooking.jsp"><i class="fa fa-map-marker" aria-hidden="true"></i> Book Hotel</a>
+            <div class="subnav">
+              <button class="subnavbtn"><i class="fa fa-tasks" aria-hidden="true"></i> More <i class="fa fa-caret-down"></i></button>
+                 <div class="subnav-content">
+                <a href="https://www.soccer.com/srch?query=liverpool" target="_blank">Fan Store</a>
+                <a href="Gallery.jsp">Matches Gallery</a>  
+         <a href="rules.html">Game Rules</a>
+               <a href="Sponsers.jsp">Sponsers</a>
+               <a href="TourReferee.jsp">Referees</a>
+
+
+             </div>
+          </div>
+            <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
+          </div>
+
+
+    <div class="login">
+        <img src="css/icon.png" class="icon">
+    <h1>Register your Team</h1>
+    <form action="jsp/connect.jsp" method="post">
+        <p>Team Name (Used as UserName)</p>
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter Password" required> 
+        <p>Confirm</p>
+        <input type="password" name="password1" placeholder="Re-enter Password" required> 
+        <p>Coach Name</p>
+        <input type="text" name="coach" placeholder="Coach Name" required> 
+        <label for="genderGroup">Choose Gender</labe:l>
+        <select id="genderGroup" name="genderGroup">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="ageGroup">Choose an age Group:</label>
+        <select id="ageGroup" name="ageGroup">
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18 - 48</option>
+          <option value="19">48+</option>
+        </select>
+        <input class="createAccount" type="submit" name="submit" value="Create account">
+    </form>
+  </div>
+  </body>
+</head>
+</html>
+
